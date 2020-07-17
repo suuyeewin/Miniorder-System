@@ -1,0 +1,53 @@
+body
+{
+    margin: auto;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.two
+{
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.link
+{
+  background-color: rgb(210, 168, 249);
+  padding:10px 2px;
+
+}
+.link a
+{
+  text-decoration: none;
+  color:#555;
+}
+.company a
+{
+  text-decoration: none;
+  padding-left: 290px;
+}
+.text
+{
+  border: none;
+  border-bottom: 1px silver solid;
+}
+.text:hover
+{
+    border-bottom: 1px  rgb(210, 168, 249); solid;
+}
+
+@media screen and (min-width: 600px) {
+  .container
+  {
+      margin-top: 10px;
+      width: 50%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container
+  {
+      margin-top: 10px;
+  }
+}

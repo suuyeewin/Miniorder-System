@@ -1,0 +1,93 @@
+body
+{
+    margin: 20px auto;
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.container
+{
+    
+}
+.banner
+{
+    background-color: rgb(185, 185, 236);
+}
+.banner1
+{
+    background-color: #b831b6;
+    color: white;
+    border-radius: 10px;
+}
+.menuframe
+{
+    background-image: linear-gradient( rgb(34, 34, 243),rgb(134, 134, 230));
+    text-align: right;
+}
+.menuframe ul
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.menuframe ul li
+{
+    position: relative;
+    float: left;
+    
+}
+.menuframe ul li a
+{
+    position: relative;
+    float: left;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+   
+}
+.menuframe ul li a:hover
+{
+    color: white;
+    background-color: #b831b6;
+}
+.menuframe1
+{
+    background-image: linear-gradient( rgb(134, 134, 230), rgb(34, 34, 243));
+}
+.footer
+{
+    background-color: #b831b6;
+    color: white;
+    padding: 20px;
+}
+.slider
+{
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    padding-left: 21px;
+    background-color: rgb(255, 192, 234);
+}
+.black1
+{
+    border-radius: 8px;
+    color: white;
+    background-color: darkgrey;
+}
+.black
+{
+    border-radius: 8px;
+    color: gold;
+    background-color: darkgrey;
+}
+.black2
+{
+    color: gold;
+}
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
